@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faculty And Research</title>
+  <link rel="icon" href="Chem_Logo.jpg" type="image/gif">
+
+
+<!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<script src="https://kit.fontawesome.com/49a2253139.js"crossorigin="anonymous"></script>
+
+
+<style> 
+  #sidebar{
+    height:auto;
+    background-color: #9c2624;
+    color: white;
+    padding: 2%;
+  }
+  #columns{
+    border-radius: 1px;
+    border-style: solid;
+    padding: 5px;
+    margin:1%;
+    text-align: center;
+  }
+    
+  img{
+    height:200px;
+    width: 200px;
+  }
+  #logo{
+    height:100px;
+    }
+
+  #queensLogo{
+    height:100px;
+    width:auto;
+    }
+
+</style>
+
+</head>
+
+<body>
+  <header>
+  <nav>
+
+    <a class="navbar-brand" href="index.html">
+      <img src="Chem_Logo2.png" id="logo" >
+    </a>
+    <div class ="float-right">
+      <img src="queensLogo.png" id="queensLogo" alt="">
+   </div> 
+
+  </nav>
+
+  <!--This section is for the navbar-->
+  <!-- if you like to add anything in navbar -->
+  <!-- Copy everything after this <li class="nav-item">
+      <a class="nav-link" href="its link">Name of the tab you like to add</a>
+      </li> till here-->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             <li class="nav-item">
+             <a class="nav-link" href="index.html">Home</a>
+             </li>
+             <li class="nav-item drop">
+             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Faculty and Research</a>
+             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="faculty_and_research.html">All Faculty </a>
+              <a class="dropdown-item" href="faculty_sorted_by_dept.html">Faculty Sorted by Department</a>
+             </div>         
+             </li>
+             <li class="nav-item">
+             <a class="nav-link" href="degree_and_programs.html">Degree And Programs</a>
+             </li>
+             <li class="nav-item">
+             <a class="nav-link" href="courses.html">Courses and Syllabus</a>
+             </li>
+             <li class="nav-item">
+             <a class="nav-link" href="facilities.html">Facilities</a>
+             </li>
+             
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Quicklinks
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="https://www.acs.org/content/acs/en.html">American Chemical Society</a>
+              <a class="dropdown-item" href="https://www.qc.cuny.edu/Academics/Documents/UG_Bulletin_%202019_2020.pdf">QC Undergraduate Bulletin</a>
+              <a class="dropdown-item" href="https://www.qc.cuny.edu/Academics/Documents/2019_2020_Graduate_Bulletin.pdf">QC Graduate Bulletin</a>
+            </div>
+           </li>
+           <!-- Add here-->
+            </ul>
+          
+         <form class="form-inline" action="https://www.qc.cuny.edu/Search/Results.aspx">
+           <input name ="k" class="input-append" type="search" placeholder="Search" aria-label="Search"> 
+             <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
+       </div>
+    </div>
+  </nav>
+
+  </header>
+
+  <div class="container-fluid" id="main_page">
+  <div class ="row">
+    
+    <div class="col-sm-9">
+      <h5>Analytical Chemistry Faculty</h5>
+
+      <div class="row">
+
+        <div class="col-sm-4" id="columns">
+         <a href="http://chem.qc.cuny.edu/~jliu/Liu_page/Liu_main.htm"> <img src="Jianbo_Liu.gif"></a><br>
+         <b>Jianbo Liu</b><br>
+          Science Building, Room B312 <br>
+          <i class="fas fa-phone-alt"></i>
+          Phone: 718-997-3271<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:Jianbo.Liu@qc.cuny.edu">Jianbo.Liu@qc.cuny.edu</a>       
+        </div>
+
+        <div class="col-sm-4" id="columns">
+         <a href="http://chem.qc.cuny.edu/~mirkinlab/mvm.html"> <img src="Michael-V.-Mirkin.gif"></a><br>
+         <b>Michael V. Mirkin</b><br>
+           Remsen, Room 120E <br>
+          <i class="fas fa-phone-alt"></i>          
+          Phone: 718-997-4111<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:michael.mirkin@qc.cuny.edu">michael.mirkin@qc.cuny.edu</a>
+        </div>  
+      
+        <div class="col-sm-4" id="columns">
+        <a href="http://chem.qc.cuny.edu/~gsubrama/"><img src="SubramaniamGopal.gif"></a><br>
+         <b>Gopal Subramaniam</b><br>
+          Remsen, Room 206C <br>
+          <i class="fas fa-phone-alt"></i>          
+          Phone: 718-997-4123
+        </div>
+
+      </div>
+
+      <h5>Biochemistry Faculty</h5>
+
+      <div class="row">
+
+        <div class="col-sm-4" id="columns">
+        <a href="https://www.choiresearchlab.com/"> <img src="choi.jpg"></a><br>
+        <b>Junyong Choi</b><br>
+          Science Bldg, Room B304<br>
+          <i class="fas fa-phone-alt"></i>
+          Phone: 718-997-3279<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:junyong.choi@qc.cuny.edu">junyong.choi@qc.cuny.edu</a>  
+        </div> 
+
+        <div class="col-sm-4" id="columns">
+          <a href="https://sites.google.com/view/pathaks-laboratory/home"><img src="SanjaiKumarSP.gif"></a><br>
+         <b>Sanjai K. Pathak</b><br>
+          Remsen, Room 252A <br>
+          <i class="fas fa-phone-alt"></i>
+          Phone: 718-997-4120<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:sanjai.kumar@qc.cuny.edu">sanjai.kumar@qc.cuny.edu</a>
+        </div> 
+
+        <div class="col-sm-4" id="columns">
+          <a href="http://chem.qc.cuny.edu/~usamuni/"><img src="UriSamuni.gif"></a><br>
+         <b>Uri Samuni</b><br>
+          Remsen, Room 26A <br>
+          <i class="fas fa-phone-alt"></i>
+          Phone: 718-997-4223<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:Uri.Samuni@qc.cuny.edu">Uri.Samuni@qc.cuny.edu</a>
+        </div> 
+
+        <div class="col-sm-4" id="columns">
+          <a href="http://chem.qc.cuny.edu/~srotenberg/"><img src="Susan-A.-Rotenberg.gif"></a><br>
+         <b>Susan A. Rotenberg</b><br>
+          Remsen, Room 117B <br>
+          <i class="fas fa-phone-alt"></i>
+          Phone: 718-997-4133<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:Susan.Rotenberg@qc.cuny.edu">Susan.Rotenberg@qc.cuny.edu</a>
+        </div> 
+
+      </div>
+
+      <h5> Inorganic Chemistry Faculty</h5>
+
+      <div class="row">
+
+        <div class="col-sm-4" id="columns">
+          <a href="https://sites.google.com/view/the-hu-group"><img src="Hu.jpg"></a><br>
+         <b>Guoxiang (Emma) Hu</b><br>
+          Remsen, Room <br>
+          <i class="fas fa-phone-alt"></i>
+          Phone: 718-997-<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:Guoxiang.Hu@qc.cuny.edu">Guoxiang.Hu@qc.cuny.edu</a>
+        </div>  
+      </div>
+
+      <h5>Nanotechnology and Materials Science Faculty</h5>
+      <div class="row">
+
+        <div class ="col-sm-4" id="columns">
+         <a href="http://chem.qc.cuny.edu/~sjjang/"><img src="suggy1.gif"></a><br>
+         <b>Seogjoo J. Jang</b><br>
+          Remsen, Room 119C<br>
+          <i class="fas fa-phone-alt"></i>
+          Phone: 718-997-4110<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:seogjoo.jang@qc.cuny.edu">seogjoo.jang@qc.cuny.edu </a>        
+        </div>  
+
+        <div class="col-sm-4" id="columns">
+         <a href="http://chem.qc.cuny.edu/~jliu/Liu_page/Liu_main.htm"> <img src="Jianbo_Liu.gif"></a><br>
+         <b>Jianbo Liu</b><br>
+          Science Building, Room B312 <br>
+          <i class="fas fa-phone-alt"></i>
+          Phone: 718-997-3271<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:Jianbo.Liu@qc.cuny.edu">Jianbo.Liu@qc.cuny.edu</a>       
+        </div>
+
+        <div class="col-sm-4" id="columns">
+         <a href="http://chem.qc.cuny.edu/~mirkinlab/mvm.html"> <img src="Michael-V.-Mirkin.gif"></a><br>
+         <b>Michael V. Mirkin</b><br>
+           Remsen, Room 120E <br>
+          <i class="fas fa-phone-alt"></i>          
+          Phone: 718-997-4111<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:michael.mirkin@qc.cuny.edu">michael.mirkin@qc.cuny.edu</a>
+        </div>
+
+         <div class="col-sm-4" id="columns">
+          <a href="https://sites.google.com/view/the-hu-group"><img src="Hu.jpg"></a><br>
+         <b>Guoxiang (Emma) Hu</b><br>
+          Remsen, Room <br>
+          <i class="fas fa-phone-alt"></i>
+          Phone: 718-997-<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:Guoxiang.Hu@qc.cuny.edu">Guoxiang.Hu@qc.cuny.edu</a>
+        </div>
+
+       <div class="col-sm-4" id="columns">
+         <a href="http://chem.qc.cuny.edu/~usamuni/"><img src="UriSamuni.gif"></a><br>
+         <b>Uri Samuni</b><br>
+          Remsen, Room 26A <br>
+          <i class="fas fa-phone-alt"></i>
+          Phone: 718-997-4223<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:Uri.Samuni@qc.cuny.edu">Uri.Samuni@qc.cuny.edu</a>
+        </div>
+
+      </div>
+
+      <h5>Organic Chemistry</h5>
+      <div class="row">
+
+        <div class="col-sm-4" id="columns">
+        <a href="https://www.choiresearchlab.com/"> <img src="choi.jpg"></a><br>
+        <b>Junyong Choi</b><br>
+          Science Bldg, Room B304<br>
+          <i class="fas fa-phone-alt"></i>
+          Phone: 718-997-3279<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:junyong.choi@qc.cuny.edu">junyong.choi@qc.cuny.edu</a>  
+        </div> 
+
+
+        <div class="col-sm-4" id="columns">
+        <a href="http://chem.qc.cuny.edu/~ychen/homepage.htm"><img src="yuchen.gif"></a><br>
+         <b>Yu Chen</b><br>
+          Remsen, Room 206F<br>
+          <i class="fas fa-phone-alt"></i>
+          Phone: 718-997-4132<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:yu.chen1@qc.cuny.edu">yu.chen1@qc.cuny.edu</a>
+        </div>  
+
+        <div class="col-sm-4" id="columns">
+         <a href="http://chem.qc.cuny.edu/~whersh/"> <img src="WilliamHHershSP.gif"></a><br>
+         <b>William H. Hersh</b><br>
+          Remsen, Room 109B<br>
+          <i class="fas fa-phone-alt"></i>
+          Phone: 718-997-4144<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:william.hersh@qc.cuny.edu">william.hersh@qc.cuny.edu</a>
+        </div>  
+
+      <div class="col-sm-4" id="columns">
+          <a href="https://sites.google.com/view/pathaks-laboratory/home"><img src="SanjaiKumarSP.gif"></a><br>
+         <b>Sanjai K. Pathak</b><br>
+          Remsen, Room 252A <br>
+          <i class="fas fa-phone-alt"></i>
+          Phone: 718-997-4120<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:sanjai.kumar@qc.cuny.edu">sanjai.kumar@qc.cuny.edu</a>
+        </div> 
+      </div>
+
+      <h5>Physical Chemistry</h5>
+      
+      <div class="row">
+        <div class="col-sm-4" id="columns">
+        <a href="https://sites.google.com/qc.cuny.edu/evanslab"><img src="ChericeMEvans.gif"></a><br>
+         <b>Cherice M. Evans</b><br>
+          Remsen, Room 206G<br>
+          <i class="fas fa-phone-alt"></i>
+          Phone: 718-997-4216<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:cherice.evans@qc.cuny.edu">cherice.evans@qc.cuny.edu</a><br><br>
+        </div>  
+
+        <div class ="col-sm-4" id="columns">
+         <a href="http://chem.qc.cuny.edu/~sjjang/"><img src="suggy1.gif"></a><br>
+         <b>Seogjoo J. Jang</b><br>
+          Remsen, Room 119C<br>
+          <i class="fas fa-phone-alt"></i>
+          Phone: 718-997-4110<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:seogjoo.jang@qc.cuny.edu">seogjoo.jang@qc.cuny.edu </a>        
+        </div>  
+
+        <div class="col-sm-4" id="columns">
+         <a href="http://chem.qc.cuny.edu/~jliu/Liu_page/Liu_main.htm"> <img src="Jianbo_Liu.gif"></a><br>
+         <b>Jianbo Liu</b><br>
+          Science Building, Room B312 <br>
+          <i class="fas fa-phone-alt"></i>
+          Phone: 718-997-3271<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:Jianbo.Liu@qc.cuny.edu">Jianbo.Liu@qc.cuny.edu</a>       
+        </div>
+
+        <div class="col-sm-4" id="columns">
+         <a href="http://chem.qc.cuny.edu/~mirkinlab/mvm.html"> <img src="Michael-V.-Mirkin.gif"></a><br>
+         <b>Michael V. Mirkin</b><br>
+           Remsen, Room 120E <br>
+          <i class="fas fa-phone-alt"></i>          
+          Phone: 718-997-4111<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:michael.mirkin@qc.cuny.edu">michael.mirkin@qc.cuny.edu</a>
+        </div>
+
+         
+       <div class="col-sm-4" id="columns">
+         <a href="http://chem.qc.cuny.edu/~usamuni/"><img src="UriSamuni.gif"></a><br>
+         <b>Uri Samuni</b><br>
+          Remsen, Room 26A <br>
+          <i class="fas fa-phone-alt"></i>
+          Phone: 718-997-4223<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:Uri.Samuni@qc.cuny.edu">Uri.Samuni@qc.cuny.edu</a>
+        </div>
+
+        <div class="col-sm-4" id="columns">
+          <a href="https://www.wanglabcuny.net/"><img src="wang.jpg"></a><br>
+         <b>Chen Wang</b><br>
+          Remsen, Room 206G <br>
+          <i class="fas fa-phone-alt"></i>
+          Phone: 718-997-4100<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:chen.wang@qc.cuny.edu">chen.wang@qc.cuny.edu</a>
+        </div>  
+      </div> 
+
+      </div>
+
+   <div class="col-sm-3" id="sidebar"> 
+     Staff and Instructors:<br><br>
+      <ul>
+      <li><b>Yu Chen</b>: Associate Professor</li>
+      <li><b>Junyong Choi</b>: Assistant Professor</li>
+      <li><b>Cherice M. Evans</b>: Associate Professor</li>
+      <li><b>William H. Hersh</b>: Professor</li>
+      <li><b>Guoxiang (Emma) Hu</b>: Assistant Professor</li>
+      <li><b>Seogjoo J. Jang1</b>: Professor</li>
+      <li><b>Jianbo Liu</b>: Professor</li>
+      <li><b>Michael V. Mirkin</b>: Professor</li>
+      <li><b>Sanjai K. Pathak</b>: Professor</li>
+      <li><b>Susan A. Rotenberg</b>: Professor</li>
+      <li><b>Uri Samuni</b>: Assistant Professor</li>
+      <li><b>Sheila Sanders</b>: Lecturer</li>
+      <li><b>Gopal Subramaniam</b>: Higher Ed. Officer
+      <li><b>Chen Wang</b>: Assistant Professor</li>
+
+    </div>
+
+  </div>
+</div>
+  
+</body>
+
+</html>
+

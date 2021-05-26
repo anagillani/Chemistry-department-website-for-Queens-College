@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faculty And Research</title>
+  <link rel="icon" href="Chem_Logo.jpg" type="image/gif">
+
+
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <script src="https://kit.fontawesome.com/49a2253139.js"crossorigin="anonymous"></script>
+
+  <style> 
+    #sidebar{
+      height:auto;
+      background-color: #9c2624;
+      color: white;
+      padding: 2%;
+    }
+    #rows{
+      border-radius: 1px;
+      border-style: solid;
+      padding: 1%;
+      margin:1%;
+    }
+    
+    #columns{
+      margin:1%;
+      padding: 1%;
+    }
+    img{
+      height:200px;
+      width: 200px;
+    }
+    #logo{
+      height:100px;
+    }
+
+    #queensLogo{
+      height:100px;
+      width:auto;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <!-- This section is for the logos-->
+<header>
+<nav>
+
+  <a class="navbar-brand" href="index.html">
+    <img src="Chem_Logo2.png" id="logo" >
+  </a>
+  <div class ="float-right">
+    <img src="queensLogo.png" id="queensLogo" alt="">
+ </div> 
+
+</nav>
+
+<!--This section is for the navbar-->
+<!-- if you like to add anything in navbar -->
+<!-- Copy everything after this <li class="nav-item">
+    <a class="nav-link" href="its link">Name of the tab you like to add</a>
+    </li> till here-->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+           <li class="nav-item">
+           <a class="nav-link" href="index.html">Home</a>
+           </li>
+           <li class="nav-item drop">
+           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Faculty and Research</a>
+           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="faculty_and_research.html">All Faculty </a>
+            <a class="dropdown-item" href="faculty_sorted_by_dept.html">Faculty Sorted by Department</a>
+           </div>         
+           </li>
+           <li class="nav-item">
+           <a class="nav-link" href="degree_and_programs.html">Degree And Programs</a>
+           </li>
+           <li class="nav-item">
+           <a class="nav-link" href="coursess.html">Courses and Syllabus</a>
+           </li>
+           <li class="nav-item">
+           <a class="nav-link" href="facilities.html">Facilities</a>
+           </li>
+           
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Quicklinks
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="https://www.acs.org/content/acs/en.html">American Chemical Society</a>
+            <a class="dropdown-item" href="https://www.qc.cuny.edu/Academics/Documents/UG_Bulletin_%202019_2020.pdf">QC Undergraduate Bulletin</a>
+            <a class="dropdown-item" href="https://www.qc.cuny.edu/Academics/Documents/2019_2020_Graduate_Bulletin.pdf">QC Graduate Bulletin</a>
+          </div>
+         </li>
+         <!-- Add here-->
+          </ul>
+        
+        <form class="form-inline" action="https://www.qc.cuny.edu/Search/Results.aspx">
+           <input name ="k" class="input-append" type="search" placeholder="Search" aria-label="Search"> 
+             <button type="submit"><i class="fas fa-search"></i></button>
+        </form> 
+     </div>
+  </div>
+</nav>
+
+</header>
+  <div class="container-fluid" id="main_page">
+  <div class ="row">
+    
+    <div class="col-sm-9">
+      <h5> Department Chair</h5>
+
+      <div class="row" id="rows">
+        <div class="column">
+          <a href="http://chem.qc.cuny.edu/~sjjang/"><img src="suggy1.gif"></a>
+        </div>
+        <div class ="col-sm-8" id="columns">
+         <b>Seogjoo J. Jang</b><br>
+         Theoretical and Computational Chemistry -Physical Chemistry, Photonics, and Nanoscience<br>
+          Remsen, Room 119C<br>
+          <i class="fas fa-phone-alt"></i>
+          Phone: 718-997-4110<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:seogjoo.jang@qc.cuny.edu">seogjoo.jang@qc.cuny.edu </a><br><br>
+          <p>Jang’s expertise is in the area of condensed phase quantum dynamical molecular processes. He has worked on path integral simulation, theories of energy/electron transfer, and development of new quantum master equations. His main focus at present is combining these approaches for reliable theoretical description of energy and charge flow dynamics in photosynthetic pigment-protein complexes and in various conjugated organic molecules used for plastic solar cells.</p>
+        </div>  
+      </div>
+
+      <h5>Faculty</h5>
+
+      <div class="row" id="rows">
+        <div class="column">
+          <a href="http://chem.qc.cuny.edu/~ychen/homepage.htm"><img src="yuchen.gif"></a>
+        </div>
+        <div class ="col-sm-8" id="columns">
+         <b>Yu Chen</b><br>
+          Organic Chemistry<br>
+          Remsen, Room 206F<br>
+          <i class="fas fa-phone-alt"></i>
+          Phone: 718-997-4132<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:yu.chen1@qc.cuny.edu">yu.chen1@qc.cuny.edu</a><br><br>
+          <p>Dr. Chen’s research interest includes the topics of late-transition-metal catalysis, asymmetric synthesis and catalysis, and heterocyclic chemistry. The late-transition-metal catalysis topic plays a significant role in Chen research group. His group is particularly interested in group 9 to 11 transition metals, especially Rh, Pd, Pt and Au. Developing new efficient chemical transformations using these late-transition-metal catalysts is currently one of the group’s major objectives. The late-transition-metal catalyzed asymmetric synthesis is another important research topic in Chen group. The group focuses on designing and preparing new ligands with axial chirality or facial chirality for efficient and highly stereoselective chemical reactions catalyzed by late-transition-metals. The synthetic methodologies developed in Chen group will be employed as the key steps in the synthesis of biologically interesting and pharmaceutically important molecules.</p>
+        </div>  
+      </div>
+
+      <div class="row" id="rows">
+        <div class="column">
+          <a href="https://www.choiresearchlab.com/"> <img src="choi.jpg"></a>
+        </div>
+        <div class ="col-sm-8" id="columns">
+         <b>Junyong Choi</b><br>
+          Chemical Biology <br>
+          Science Bldg, Room B304<br>
+          <i class="fas fa-phone-alt"></i>
+          Phone: 718-997-3279<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:junyong.choi@qc.cuny.edu">junyong.choi@qc.cuny.edu</a><br><br>
+          <p>My research areas: Organic and Medicinal Chemistry, Computer-aided Drug Design, Chemical Biology.The main objective in the Choi Laboratory is to discover specific, target-directed therapeutics for human diseases. The Choi lab integrates organic synthesis, computer-aided drug design, and chemical biology to discover bioactive chemical probes and therapeutic candidates. We design and synthesize small molecules that modulate biological targets in cells and animal models of human diseases. We are particularly interested in discovery of small molecules possessing novel mechanisms of action in order to understand specific functions of biological targets in human diseases. The discovery and techniques established in the Choi lab will advance the chemical science in biomedical research and facilitate understanding in human diseases for the development of therapeutics.</p>
+        </div>  
+      </div>
+
+      <div class="row" id="rows">
+        <div class="column">
+          <a href="https://sites.google.com/qc.cuny.edu/evanslab"><img src="ChericeMEvans.gif"></a>
+        </div>
+        <div class ="col-sm-8" id="columns">
+         <b>Cherice M. Evans</b><br>
+          Physical Chemistry <br>
+          Remsen, Room 206G<br>
+          <i class="fas fa-phone-alt"></i>
+          Phone: 718-997-4216<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:cherice.evans@qc.cuny.edu">cherice.evans@qc.cuny.edu</a><br><br>
+          <p>Research interests -- experimental physical chemistry: molecular and atomic spectroscopy, field ionization and photoabsorption of molecular Rydberg states in dense gases and simple fluids, molecular Rydberg-Rydberg transitions, electric field effects on molecular Rydberg states, the effects of rare-gas clusters on molecular Rydberg states, oscillatory absorption and fluorescence in gas-phase and liquid-phase chemical systems, Turing pattern formation in liquid-phase chemical reactions</p>
+        </div>  
+      </div>
+
+      <div class="row" id="rows">
+        <div class="column">
+         <a href="http://chem.qc.cuny.edu/~whersh/"> <img src="WilliamHHershSP.gif"></a>
+        </div>
+        <div class ="col-sm-8" id="columns">
+         <b>William H. Hersh</b><br>
+         Organic/Organometallic; uses of novel phosphorus chemistry in organometallic catalysis, antisense oligonucleotide synthesis, and enantioselective catalysis. <br>
+          Remsen, Room 109B<br>
+          <i class="fas fa-phone-alt"></i>
+          Phone: 718-997-4144<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:william.hersh@qc.cuny.edu">william.hersh@qc.cuny.edu</a>
+        </div>  
+      </div>
+      
+      <div class="row" id="rows">
+        <div class="column">
+          <a href="https://sites.google.com/view/the-hu-group"><img src="Hu.jpg"></a>
+        </div>
+        <div class ="col-sm-8" id="columns">
+         <b>Guoxiang (Emma) Hu</b><br>
+          Computational Materials Chemistry<br>
+          Remsen, Room <br>
+          <i class="fas fa-phone-alt"></i>
+          Phone: 718-997-<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:Guoxiang.Hu@qc.cuny.edu">Guoxiang.Hu@qc.cuny.edu</a><br><br>
+          <p>New Energy Solutions with Computational Chemistry <br>Efficient and sustainable energy harvesting and utilization is one of the prime challenges for the 21st century. Two key processes needed to accomplish this goal are (1) harvesting renewable solar energy, and (2) utilizing this energy for storage in solar fuels or for sustainable production of industrial chemical feedstocks through catalysis. As a computational chemistry group, we seek to understand the mechanisms harnessing energy and the chemical conversions of molecules at atomic-level understanding and reveal structure-property relationships. To fully grasp this, it is necessary to incorporate suitable techniques at different time and size scales. My group will use multiscale simulations expanding first principles density functional theory (DFT) to both larger scale simulations to feasibly screen wide chemical and structural spaces and to highly accurate techniques to describe complex electronic structures. More importantly, combining these varying techniques and scales provides insights towards developing superior catalysts and better electronic devices otherwise impossible with a single technique.​</p>
+        </div>  
+      </div>
+
+      <div class="row" id="rows">
+        <div class="column">
+         <a href="http://chem.qc.cuny.edu/~jliu/Liu_page/Liu_main.htm"> <img src="Jianbo_Liu.gif"></a>
+        </div>
+        <div class ="col-sm-8" id="columns">
+         <b>Jianbo Liu</b><br>
+          Physical & Analytical Chemistry, and Nanotechnology<br>
+          Science Building, Room B312 <br>
+          <i class="fas fa-phone-alt"></i>
+          Phone: 718-997-3271<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:Jianbo.Liu@qc.cuny.edu">Jianbo.Liu@qc.cuny.edu</a><br><br>
+          <p>Our research focuses on using mass spectrometry and ion-molecule reaction techniques to probe biologically relevant processes in a spectrum of systems ranging from isolated biomolecules and biomolecular ions, through micelles and aerosol droplets of biomolecules, to biomolecule solution. We are also interested in discovering and developing new analytical approaches. In addition, we have related interests in computational chemistry (e.g. quasi-classical direct dynamics trajectory simulations) and nano-materials.</p>
+        </div>  
+      </div>
+
+      <div class="row" id="rows">
+        <div class="column">
+         <a href="http://chem.qc.cuny.edu/~mirkinlab/mvm.html"> <img src="Michael-V.-Mirkin.gif"></a>
+        </div>
+        <div class ="col-sm-8" id="columns">
+         <b>Michael V. Mirkin</b><br>
+          Electrochemistry, Physical & Analytical<br>
+          Remsen, Room 120E <br>
+          <i class="fas fa-phone-alt"></i>          
+          Phone: 718-997-4111<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:michael.mirkin@qc.cuny.edu">michael.mirkin@qc.cuny.edu</a>
+        </div>  
+      </div>
+
+      <div class="row" id="rows">
+        <div class="column">
+          <a href="https://sites.google.com/view/pathaks-laboratory/home"><img src="SanjaiKumarSP.gif"></a>
+         </div>
+        <div class ="col-sm-8" id="columns">
+         <b>Sanjai K. Pathak</b><br>
+          Chemical Biology, Bioorganic & medicinal chemistry<br>
+          Remsen, Room 252A <br>
+          <i class="fas fa-phone-alt"></i>
+          Phone: 718-997-4120<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:sanjai.kumar@qc.cuny.edu">sanjai.kumar@qc.cuny.edu</a><br><br>
+          <p>Design, synthesis and evaluation of tight-binding inhibitors of clinically important enzyme targets using a combination of rational and combinatorial approaches, enzyme kinetics and molecular modeling.</p>
+        </div>  
+      </div> 
+
+      <div class="row" id="rows">
+        <div class="column">
+          <a href="http://chem.qc.cuny.edu/~srotenberg/"><img src="Susan-A.-Rotenberg.gif"></a>
+         </div>
+        <div class ="col-sm-8" id="columns">
+         <b>Susan A. Rotenberg</b><br>
+          Biochemistry<br>
+          Remsen, Room 117B <br>
+          <i class="fas fa-phone-alt"></i>
+          Phone: 718-997-4133<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:Susan.Rotenberg@qc.cuny.edu">Susan.Rotenberg@qc.cuny.edu</a><br><br>
+          <p>Protein kinase C (PKC) is a Ca2+ and phospholipid-dependent protein kinase that is a vital component in various signaling pathways that govern proliferation, differentiation, and cell movement. In malignant cells, PKC promotes unregulated cellular growth and metastasis, as evidenced by 1) its role as the cellular receptor for tumor promoters, 2) its elevated levels of expression in certain tumors, and 3) disturbances in proliferation, migration, and reduction-oxidation processes of cells genetically engineered to overproduce PKC</p>
+        </div>  
+      </div> 
+
+      <div class="row" id="rows">
+        <div class="column">
+          <a href="http://chem.qc.cuny.edu/~usamuni/"><img src="UriSamuni.gif"></a>
+         </div>
+        <div class ="col-sm-8" id="columns">
+         <b>Uri Samuni</b><br>
+          Biophysics, Biochemistry, Physical Chemistry, Bio-nanotechnology, Biophotonics<br>
+          Remsen, Room 26A <br>
+          <i class="fas fa-phone-alt"></i>
+          Phone: 718-997-4223<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:Uri.Samuni@qc.cuny.edu">Uri.Samuni@qc.cuny.edu</a><br><br>
+          <p>Prof. Uri Samuni has a doctorate in Physical Chemistry from the Hebrew University of Jerusalem, Israel, and postdoctoral training at the Keck Biomolecular Laser Research Center, Albert Einstein College of Medicine. Our research is interdisciplinary in nature involving physical chemistry, biophysics, photonics and nanophotonics. The main objective of our research is combining spectroscopy, specifically, resonance Raman and surface enhanced Raman spectroscopy (SERS), sol-gel encapsulation of proteins and nanoparticles. In sol-gel encapsulation, proteins are embedded in the inert and optically transparent sol-gel matrix and yet remain functionally active. This constitutes a unique platform for the study of protein conformational dynamics and the characterization of non-equilibrium conformations as they relate to protein function. Moreover, depending on the preparative conditions, this novel photonic material lends itself to a large range of applications such as biosensors and sol-gel based nanoparticles and their biomedical applications.</p>
+        </div>  
+      </div> 
+
+      <div class="row" id="rows">
+        <div class="column">
+          <a href=""><img src="sanders.jpg"></a>
+         </div>
+        <div class ="col-sm-8" id="columns">
+         <b>Sheila Sanders</b><br>
+          Chemistry Education<br>
+          Remsen, Room 206D <br>
+          <i class="fas fa-phone-alt"></i>
+          Phone: 718-997-4185<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:sheila.sanders@qc.cuny.edu">sheila.sanders@qc.cuny.edu</a><br><br>
+          <p>Teach General Chemistry, Basic Chemistry, and Advanced Instrumentation Methods courses.</p>
+        </div>  
+      </div> 
+
+      <div class="row" id="rows">
+        <div class="column">
+        <a href="http://chem.qc.cuny.edu/~gsubrama/"><img src="SubramaniamGopal.gif"></a>
+         </div>
+        <div class ="col-sm-8" id="columns">
+         <b>Gopal Subramaniam</b><br>
+          NMR, Chemistry Education<br>
+          Remsen, Room 206C <br>
+          <i class="fas fa-phone-alt"></i>          
+          Phone: 718-997-4123<br><br>
+          <p>As a facility director for NMR, we involve ourselves with small molecule as well as large molecule structural problems. We are also part of a working group in science education and in particular, I am involved in directing the chemistry education majors to become excellent high school teachers.</p>
+
+        </div>
+      </div>
+
+      <div class="row" id="rows">
+        <div class="column">
+          <a href="https://www.wanglabcuny.net/"><img src="wang.jpg"></a>
+         </div>
+        <div class ="col-sm-8" id="columns">
+         <b>Chen Wang</b><br>
+          Physical Chemistry <br>
+          Remsen, Room 206G <br>
+          <i class="fas fa-phone-alt"></i>
+          Phone: 718-997-4100<br>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:chen.wang@qc.cuny.edu">chen.wang@qc.cuny.edu</a><br><br>
+          <p>My research focuses on novel applications of nanomaterials based on systematic investigations into fundamental science using state-of-the-art optical spectroscopies. In my lab, we are developing pump-probe techniques for time-resolved electronic and vibrational spectroscopy and microscopy, in order to understand and eventually utilize excitons energy in nanostructures and organic/inorganic hybrid nano composited materials. These include controlling non-radiative exciton decay processes for directly converting light into mechanical energy, developing photo-switchable sensors emitting in the near-IR window for biological imaging, and manipulating charge carrier dynamics in nanostructures to improve the efficiency of photocatalytic reactions.</p>
+
+        </div>  
+      </div> 
+
+    </div>
+
+    <div class="col-sm-3" id="sidebar"> 
+     Staff and Instructors:<br><br>
+      <ul>
+      <li><b>Yu Chen</b>: Associate Professor</li>
+      <li><b>Junyong Choi</b>: Assistant Professor</li>
+      <li><b>Cherice M. Evans</b>: Associate Professor</li>
+      <li><b>William H. Hersh</b>: Professor</li>
+      <li><b>Guoxiang (Emma) Hu</b>: Assistant Professor</li>
+      <li><b>Seogjoo J. Jang1</b>: Professor</li>
+      <li><b>Jianbo Liu</b>: Professor</li>
+      <li><b>Michael V. Mirkin</b>: Professor</li>
+      <li><b>Sanjai K. Pathak</b>: Professor</li>
+      <li><b>Susan A. Rotenberg</b>: Professor</li>
+      <li><b>Uri Samuni</b>: Assistant Professor</li>
+      <li><b>Sheila Sanders</b>: Lecturer</li>
+      <li><b>Gopal Subramaniam</b>: Higher Ed. Officer
+      <li><b>Chen Wang</b>: Assistant Professor</li>
+
+    </div>
+
+  </div>
+</div>
+  
+</body>
+
+</html>
+

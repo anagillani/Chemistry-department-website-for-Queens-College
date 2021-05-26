@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang ="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Degrees And Programs</title>
+  <link rel="icon" href="Chem_Logo.jpg" type="image/gif">
+
+
+<!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <script src="https://kit.fontawesome.com/49a2253139.js"crossorigin="anonymous"></script>
+
+  <style>
+    #logo{
+      height:100px;
+    }
+
+    #queensLogo{
+      height:100px;
+      width:auto;
+    }
+   
+    #sidebar{
+      height:auto;
+      background-color: #9c2624;
+      color: white;
+      padding: 2%;
+    }
+    
+    #sidebar a{
+      color: white;
+    }
+    a{
+      color: black;
+    }
+
+  </style>
+</head>
+
+<body>
+<!-- This section is for the logos-->
+<header>
+<nav>
+
+  <a class="navbar-brand" href="index.html">
+    <img src="Chem_Logo2.png" id="logo" >
+  </a>
+  <div class ="float-right">
+    <img src="queensLogo.png" id="queensLogo" alt="">
+ </div> 
+
+</nav>
+
+<!--This section is for the navbar-->
+<!-- if you like to add anything in navbar -->
+<!-- Copy everything after this <li class="nav-item">
+    <a class="nav-link" href="its link">Name of the tab you like to add</a>
+    </li> till here-->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+           <li class="nav-item">
+           <a class="nav-link" href="index.html">Home</a>
+           </li>
+           <li class="nav-item drop">
+           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Faculty and Research</a>
+           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="faculty_and_research.html">All Faculty </a>
+            <a class="dropdown-item" href="faculty_sorted_by_dept.html">Faculty Sorted by Department</a>
+           </div>         
+           </li>
+           <li class="nav-item">
+           <a class="nav-link" href="degree_and_programs.html">Degree And Programs</a>
+           </li>
+           <li class="nav-item">
+           <a class="nav-link" href="courses.html">Courses and Syllabus</a>
+           </li>
+           <li class="nav-item">
+           <a class="nav-link" href="facilities.html">Facilities</a>
+           </li>
+           
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Quicklinks
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="https://www.acs.org/content/acs/en.html">American Chemical Society</a>
+            <a class="dropdown-item" href="https://www.qc.cuny.edu/Academics/Documents/UG_Bulletin_%202019_2020.pdf">QC Undergraduate Bulletin</a>
+            <a class="dropdown-item" href="https://www.qc.cuny.edu/Academics/Documents/2019_2020_Graduate_Bulletin.pdf">QC Graduate Bulletin</a>
+          </div>
+         </li>
+         <!-- Add here-->
+          </ul>
+        
+        <form class="form-inline" action="https://www.qc.cuny.edu/Search/Results.aspx">
+           <input name ="k" class="input-append" type="search" placeholder="Search" aria-label="Search"> 
+             <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
+        
+     </div>
+  </div>
+</nav>
+
+</header>
+
+<div class="container-fluid" id="main_page">
+  <div class ="row">
+    
+  <div class="col-sm-9">
+
+    <div class="container-fluid">
+      <h4 style="padding-top:20px; padding-bottom: 20px;">Academic Programs </h4>
+      <p> Undergraduate Studies: We offer BA in Chemistry, Biochemistry, and Chem Education. Click below for more details on the program and course requirements.</p>
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Course Requirements</th>
+            <th scope="col">Suggested 4 year sequence</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="https://www.qc.cuny.edu/Academics/Degrees/DMNS/Chemistry/Programs/Documents/chem_major.pdf">Chemistry Major</a></td>
+            <td><a href="https://www.qc.cuny.edu/Academics/Degrees/DMNS/Chemistry/Programs/Documents/chem_major_sequence_012017.pdf">4-year sequence for Chemistry Major</a></td>
+          </tr>
+          <tr>
+            <td><a href ="https://www.qc.cuny.edu/Academics/Degrees/DMNS/Chemistry/Programs/Documents/chem_major_biochem_concentration.pdf">Biochemistry Major</a></td>
+            <td><a href ="https://www.qc.cuny.edu/Academics/Degrees/DMNS/Chemistry/Programs/Documents/biochem_major_sequence_012017.pdf">4-year sequence for Biochemistry Major</a></td>
+          </tr>
+          <tr>
+             <td><a href="https://www.qc.cuny.edu/Academics/Degrees/DMNS/Chemistry/Programs/Documents/chemed_major.pdf">Chemistry Education Major</a></td>
+            <td><a href="https://www.qc.cuny.edu/Academics/Degrees/DMNS/Chemistry/Programs/Documents/chemed_major_sequence_012017.pdf">4-year sequence for Chemistry Education Major</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://www.qc.cuny.edu/Academics/Degrees/DMNS/Chemistry/Programs/Documents/chem_minor.pdf">Chemistry Minor</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <hr>
+    </div>
+
+    <div class="container-fluid">
+      <h4 style="padding-top:20px; padding-bottom: 20px;">Master of Arts in Chemistry/ Biochemistry:</h4>
+      <p>The Department of Chemistry and Biochemistry offers programs leading to the degree of Master of Arts with concentration in chemistry or biochemistry. These programs include course and laboratory work designed to prepare the student for employment in the chemical industry, government laboratories or agencies, teaching or continuation of graduate studies (e.g. the Ph.D. degree).</p>
+
+      <p>The full time student will usually complete the 30 credit course of study in 2 years.</p>
+
+      <p>Since research is part of the program of study for both concentrations, check the departmental web page for the research interests of the faculty.</p>
+
+      <h5>REQUIREMENTS FOR MATRICULATION:</h5>
+      <ol>
+        <li>
+         Undergraduate studies should include: 1 full year (2 semesters) of general, organic and physical chemistry and 1/2 year of analytical chemistry (all with laboratory components). Mathematics through integral calculus and 1 year of physics. Students planning to concentrate in biochemistry should have completed at least 1 year of biology (with lab) and 1 semester of biochemistry lecture. Deficiencies may be removed by course work or individual study.
+        </li>
+
+        <li>
+          Three written letters of recommendation from chemistry/biochemistry professionals (undergraduate instructors/supervisors at place of employment, etc.)
+        </li>
+
+        <li>
+          An interview with a representative of the Graduate Committee may be required.
+        </li>
+        
+        <li> 
+         Graduate Record Examination
+        </li>
+
+        <li>
+         TOEFL (Test of English as a Foreign Language) scores of 500 or better for non-native English speakers.
+        </li>
+      </ol>
+      <p>
+      For further information on general requirements for admission to Master's Degree Programs at Queens College go to <a href="https://www.qc.cuny.edu/admissions/graduate/Pages/Welcome.aspx">the Office of Graduate Studies webpage</a>.
+      </p>    
+    </div>
+
+  </div>
+      
+    <!--This is displaying the sideabr-->
+    <div class="col-sm-3" id="sidebar"> 
+      Contact Information:<br><br>
+      <ul>
+      <li>Chair: Dr. Seogjoo J. Jang</li>
+
+    <li>Deputy Chair: Dr. Jianbo Liu</li>
+
+    <li>Associate Chair: Dr. Sanjai Pathak</li>
+
+    <li>Secretary: Ms. Elizabeth L. Zoiner</li>
+
+    <li>Office Assistant: Ms. Kelly Barth
+
+    Remsen 206</li>
+
+    <li>Tel: 718-997-4100, 4482​</li>
+
+    <li><a href="mailto:Kelly.barth@qc.cuny.edu"> Email us</a></li>
+   </ul>
+
+    <br><br><br>
+
+    
+    </div>
+
+  </div>
+</div>
+  
+</body>
+
+</html>
+ 
